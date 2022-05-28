@@ -1,0 +1,49 @@
+.list {
+
+    .list-item {
+        padding: 2% 2%;
+        display: flex;
+        align-items: center;
+        // flex-wrap: wrap;
+        // justify-content: space-evenly;
+        text-align: left;
+
+        color: rgb(77, 77, 77);
+
+        .product-id {
+            width: 25%;
+        }
+
+        .customer-name {
+            width: 20%
+        }
+
+        .customer-email {
+            width: 25%;
+        }
+
+        .product-type {
+            width: 15%;
+        }
+
+        .quantity {
+            width: 7%;
+        }
+
+        .icons {
+            width: 8%;
+        }
+    }
+
+    .list-header {
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    .pagination {
+        margin: 2%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
